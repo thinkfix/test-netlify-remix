@@ -1,6 +1,6 @@
-[build]
-command = "npm run build && cp _app_redirects public/_redirects"
-publish = "public"
+# [build]
+# command = "npm run build && cp _app_redirects public/_redirects"
+# publish = "public"
 
 [db]
 command = "npx prisma db push && npx prisma db seed"

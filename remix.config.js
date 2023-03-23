@@ -15,4 +15,6 @@ module.exports = {
   // add your own custom config here if you want to.
   //
   // See https://remix.run/docs/en/v1/file-conventions/remix-config
+  sourceMap: true,
+  serverDependenciesToBundle: ["swiper", "swiper/react", "swiper/react/swiper-react", "ssr-window", "ssr-window/ssr-window.esm", "dom7", "marked"]
 };

@@ -3,7 +3,7 @@
 # publish = "public"
 
 [db]
-command = "npx prisma db push && npx prisma db seed"
+command = "rm prisma/dev.db && npx prisma db push && npx prisma db seed"
 
 [dev]
 command = "npm run dev"

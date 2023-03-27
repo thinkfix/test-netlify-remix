@@ -7,19 +7,19 @@ import * as Sentry from "@sentry/remix";
 import { useEffect } from "react";
 import { renderToPipeableStream } from "react-dom/server";
 
-Sentry.init({
-    dsn: "https://021af590360540af8dddb2fb9c361872:8d63b44a36d540818ed63917e139afe8@o4504909773471744.ingest.sentry.io/4504910217609216",
-    tracesSampleRate: 1,
-    integrations: [
-        new Sentry.BrowserTracing({
-            routingInstrumentation: Sentry.remixRouterInstrumentation(
-                useEffect,
-                useLocation,
-                useMatches
-            ),
-        }),
-    ],
-});
+// Sentry.init({
+//     dsn: "https://021af590360540af8dddb2fb9c361872:8d63b44a36d540818ed63917e139afe8@o4504909773471744.ingest.sentry.io/4504910217609216",
+//     tracesSampleRate: 1,
+//     integrations: [
+//         new Sentry.BrowserTracing({
+//             routingInstrumentation: Sentry.remixRouterInstrumentation(
+//                 useEffect,
+//                 useLocation,
+//                 useMatches
+//             ),
+//         }),
+//     ],
+// });
 
 const ABORT_DELAY = 5000;
 

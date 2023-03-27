@@ -6,14 +6,14 @@ import {
     AccordionItemPanel,
 } from 'react-accessible-accordion';
 
-import {marked} from "marked";
+import { marked } from "marked";
 
 import accordion from 'react-accessible-accordion/dist/fancy-example.css';
 import styles from "~/styles/faq.css";
 import markdown from "~/styles/markdown.css";
-import {json, LoaderArgs} from "@remix-run/node";
-import {db} from "~/utils/db.server";
-import {useLoaderData} from "@remix-run/react";
+import { json, LoaderArgs } from "@remix-run/node";
+import { db } from "~/utils/db.server";
+import { useLoaderData } from "@remix-run/react";
 
 export function links() {
     return [

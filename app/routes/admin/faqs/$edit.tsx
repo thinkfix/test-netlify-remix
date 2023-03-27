@@ -1,11 +1,11 @@
 import type { ActionArgs } from "@remix-run/node";
 
-import {useActionData, useLoaderData} from "@remix-run/react";
-import {json, LoaderArgs, redirect} from "@remix-run/node";
-import {db} from "~/utils/db.server";
+import { useActionData, useLoaderData } from "@remix-run/react";
+import { json, LoaderArgs, redirect } from "@remix-run/node";
+import { db } from "~/utils/db.server";
 
-import {badRequest} from "~/utils/request.server";
-import {validateFaqContent, validateFaqHeading} from "~/utils/validation";
+import { badRequest } from "~/utils/request.server";
+import { validateFaqContent, validateFaqHeading } from "~/utils/validation";
 import GoBack from "~/components/GoBack";
 
 

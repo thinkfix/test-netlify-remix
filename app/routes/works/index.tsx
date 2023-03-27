@@ -4,7 +4,7 @@ import { useLoaderData } from "@remix-run/react";
 import Works from "~/components/Works";
 
 import { db } from "~/utils/db.server";
-import {randomColor} from "~/utils/randomColor";
+import { randomColor } from "~/utils/randomColor";
 
 export const loader = async () => {
     const clientList = await db.client.findMany({

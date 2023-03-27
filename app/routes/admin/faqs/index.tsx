@@ -1,7 +1,7 @@
-import {ActionArgs, json, LoaderArgs} from "@remix-run/node";
-import {db} from "~/utils/db.server";
-import {Link, useLoaderData} from "@remix-run/react";
-import {PencilSquareIcon, TrashIcon} from "@heroicons/react/24/outline";
+import { ActionArgs, json, LoaderArgs } from "@remix-run/node";
+import { db } from "~/utils/db.server";
+import { Link, useLoaderData } from "@remix-run/react";
+import { PencilSquareIcon, TrashIcon } from "@heroicons/react/24/outline";
 
 export const action = async ({
                                  params,

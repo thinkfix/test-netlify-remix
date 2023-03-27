@@ -8,6 +8,8 @@ import {
     Outlet
 } from "@remix-run/react";
 
+import { withSentry } from "@sentry/remix";
+
 import Header from "~/components/Header";
 import Footer from "~/components/Footer";
 
@@ -27,7 +29,7 @@ export const meta: MetaFunction = () => ({
     description: "Vi lager skreddersydde nettbutikker med Magento som plattform"
 });
 
-export default function App() {
+function App() {
   return (
       <html lang="nb">
       <head>
@@ -47,3 +49,5 @@ export default function App() {
       </html>
   );
 }
+
+export default withSentry(App);

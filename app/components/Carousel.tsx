@@ -7,9 +7,9 @@ export default function SlideButton({direction}) {
     const swiper = useSwiper();
 
     if (direction === "next") {
-        return <button onClick={() => swiper.slideNext()}><ArrowRightIcon className="h-6 w-6 mx-4" /></button>
+        return <button aria-label="Next" onClick={() => swiper.slideNext()}><ArrowRightIcon className="h-6 w-6 mx-4" /></button>
     } else {
-        return <button onClick={() => swiper.slidePrev()}><ArrowLeftIcon className="h-6 w-6 mx-4" /></button>
+        return <button aria-label="Previous" onClick={() => swiper.slidePrev()}><ArrowLeftIcon className="h-6 w-6 mx-4" /></button>
     }
 }
 
@@ -38,7 +38,7 @@ export const Carousel = ({slideClasses = "", children, title, ...options }) => {
                 <div className={"-order-1 px-8 lg:px-14 flex justify-between w-full pb-4"}>
                     <h3 className={"text-lg lg:text-2xl"}>{title}</h3>
                     <div className={"-mx-4"}>
-                        <SlideButton aria-label="Previous" direction={"prev"} />
+                        <SlideButton direction={"prev"} />
                         <SlideButton aria-label="Next" direction={"next"} />
                     </div>
                 </div>

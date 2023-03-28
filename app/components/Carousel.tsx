@@ -38,8 +38,8 @@ export const Carousel = ({slideClasses = "", children, title, ...options }) => {
                 <div className={"-order-1 px-8 lg:px-14 flex justify-between w-full pb-4"}>
                     <h3 className={"text-lg lg:text-2xl"}>{title}</h3>
                     <div className={"-mx-4"}>
-                        <SlideButton direction={"prev"} />
-                        <SlideButton direction={"next"} />
+                        <SlideButton aria-label="Previous" direction={"prev"} />
+                        <SlideButton aria-label="Next" direction={"next"} />
                     </div>
                 </div>
                 { children.map((item, id) => {

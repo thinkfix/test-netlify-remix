@@ -123,7 +123,7 @@ export default function Index() {
     return (
         <>
             <div className="flex justify-center items-center sm:min-h-[400px] px-8 lg:px-14 pb-8">
-                <img className="px-16" width="320" height="300" src="mus_klikk.svg" alt="front image"/>
+                <img className="px-16" width="448" height="300" src="mus_klikk.svg" alt="front image"/>
             </div>
             <div className={"flex lg:justify-center px-8 lg:px-14"}>
                 <ul className={"flex flex-wrap -mx-4 max-w-5xl sm:max-w-5xl "}>

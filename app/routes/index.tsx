@@ -123,7 +123,7 @@ export default function Index() {
     return (
         <>
             <div className="flex justify-center items-center sm:min-h-[400px] px-8 lg:px-14 pb-8">
-                <img className="px-16" src="mus_klikk.svg" alt="front image"/>
+                <img className="px-16" width="320" height="300" src="mus_klikk.svg" alt="front image"/>
             </div>
             <div className={"flex lg:justify-center px-8 lg:px-14"}>
                 <ul className={"flex flex-wrap -mx-4 max-w-5xl sm:max-w-5xl "}>
@@ -157,7 +157,7 @@ export default function Index() {
                     {articles.map(article => {
                         return (
                             <div key={article.title} className={"p-6 rounded-[8px] flex flex-wrap min-h-[250px] content-center bg-white"}>
-                                <img src={article.image} alt={article.title}/>
+                                <img src={article.image} width="124" height="124" alt={article.title}/>
                                 <h3 className={"text-2xl sm:text-3xl w-full pb-4 text-ellipsis overflow-hidden"}>{article.title}</h3>
                                 <div className={"text-lg pb-3 w-full"}>{article.text}</div>
                                 <Link className={"underline"} to={article.link}>Les mer</Link>

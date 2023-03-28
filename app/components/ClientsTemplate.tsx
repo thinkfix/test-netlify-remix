@@ -23,7 +23,7 @@ Butikken har også Algolia søk for en optimalisert søkefunksjon og Klarna Chec
 
 > Volutpat aenean feugiat sed viverra velit congue eiusmod nisi curabitur laoreet. Imperdiet magna convallis rhoncus proin blandit senectus porttitor dapibus aliquet augue. Augue proin habitasse fames id eget sed etiam nibh risus nulla tempus donec neque ultrices. Platea consequat leo molestie consequat dictum laoreet turpis blandit mauris ullamcorper viverra est. Feugiat volutpat in leo posuere nisl fringilla condimentum non ultrices imperdiet justo nulla volutpat urna.   
 
-![Tux, the Linux mascot](/images/tux.png)
+![Tux, the Linux mascot](/images/tux.webp)
 
 ##### Unordered List
 * First
@@ -52,7 +52,7 @@ export const ClientsTemplate = (props) => {
     const {markdown, template, ...client } = props.clientData.client;
 
     if (!client.pageImageUrl) {
-        client.pageImageUrl = "/images/element.jpg"
+        client.pageImageUrl = "/images/element.webp"
     }
 
     const templates = {

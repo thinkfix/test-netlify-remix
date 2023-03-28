@@ -39,7 +39,7 @@ function getClients() {
         {
             name: "Extraoptical",
             url: "https://extraoptical.no/",
-            imageUrl: "banner-thumb.jpeg",
+            imageUrl: "banner-thumb.webp",
             content: `Extra Optical er en norsk brillebutikk på nett og vi sliper briller til deg som er nærsynt, langsynt, eller har skjeve hornhinner. Extra Optical - optiker online.`,
             template: "noimage",
             markdown: `
@@ -87,14 +87,14 @@ My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best sea
         {
             name: "PetWorld",
             url: "https://www.petworld.no/",
-            imageUrl: "banner-thumb.jpeg",
+            imageUrl: "banner-thumb.webp",
             content: `Petworld.no er norges dyrebutikk på nett med størst utvalg av hundefôr, kattemat, hundebur og dyreutstyr til bunnpriser. Gratis frakt over 499 kr og lynrask levering. 100% fornøyd garanti og alltid 30 dagers åpent kjøp.`,
             template: "fullwidth",
         },
         {
             name: "ElementStudio",
             url: "https://element-studio.no/",
-            imageUrl: "banner-thumb.jpeg",
+            imageUrl: "banner-thumb.webp",
             pageImageUrl: "images/element.jpg",
             content: `Stort utvalg av kvalitetsmøbler og interiør fra Skandinaviske designere. Rask levering og personlig service. Nettbutikk og 700m2 butikk på Lilleaker ved CC Vest, Oslo. `,
             template: "fullwidth",
@@ -102,21 +102,21 @@ My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best sea
         {
             name: "Rottefella",
             url: "https://rottefella.com/",
-            imageUrl: "banner-thumb.jpeg",
+            imageUrl: "banner-thumb.webp",
             content: `Rottefella er en norsk utendørs pioner og verdens største utvikler og produsent av langrenns-, telemark- og fjellski-bindinger. Med nesten 100 års erfaring og kunnskap utvikler vi produkter som skaper flotte utendørsopplevelser og gode prestasjoner. Vår visjon er å inspirere alle til en aktiv livsstil utendørs og sørge for topp prestasjoner til de beste.`,
             template: "noimage",
         },
         {
             name: "Coverbrands",
             url: "https://www.coverbrands.no/",
-            imageUrl: "banner-thumb.jpeg",
+            imageUrl: "banner-thumb.webp",
             content: `Coverbrands - skjønnhet på nett. Kjøp av Norges største nettbutikker innen sminke, hudpleie, hårpleie, kroppspleie, accessories, helse, supermat og parfyme.`,
             template: "fullwidth",
         },
         {
             name: "Zenostore",
             url: "https://zenostore.no/",
-            imageUrl: "banner-thumb.jpeg",
+            imageUrl: "banner-thumb.webp",
             content: `Lorang by Zeno er strykefrie skjorter i premium kvalitet. Opplev klassisk skandinavisk design - mesterlig sydd i myk og luftig bomull. Hos oss får du oppleve lynrask levering, personlig bytteservice & fri retur. Betal sikkert med Klarna, bankkort eller Vipps.`,
             template: "twocolumns",
         },

@@ -5,7 +5,7 @@ export default function Contacts() {
     const founders = [
         {
             name: "Svein Økland",
-            photo: "svein.jpeg",
+            photo: "svein.webp",
             description: "Svein er daglig leder i Tiny Elephant og sertifisert Magento Solution Specialist. Han har bakgrunn som sivilingeniør fra NTNU og har jobbet med netthandel siden 2011.",
             competence: "Magento 2.x og 1.x arkitektur og funksjonalitet, analyse, brukervennlighet og UX",
             email: "svein@tinyelephant.no",
@@ -14,7 +14,7 @@ export default function Contacts() {
         },
         {
             name: "Ole Tovsen",
-            photo: "ole.jpeg",
+            photo: "ole.webp",
             description: "Ole er prosjektleder i Tiny Elephant og sertifisert Magento Solution Specialist. Han har bakgrunn som sivilingeniør fra NTNU og har jobbet med netthandel siden 2012.",
             competence: "Magento 2.x og 1.x arkitektur og funksjonalitet, Git, Agile metoder, SEO og White box QA",
             email: "ole@tinyelephant.no",

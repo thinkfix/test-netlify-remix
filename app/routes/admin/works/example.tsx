@@ -18,7 +18,7 @@ export const loader = async ({ params }: LoaderArgs) => {
         markdown: marked(testMarkdown),
         name: 'Test project',
         url: 'https://testproject.no/',
-        pageImageUrl: '/images/ferner.jpg',
+        pageImageUrl: '/images/ferner.webp',
         content: 'Check out app/routes/admin/works/example.tsx or https://www.markdownguide.org/cheat-sheet/ for markdown syntax.' +
             ' ---------------------  ' +
             'Rottefella er en norsk utendørs pioner og verdens største utvikler og produsent av langrenns-, telemark- og fjellski-bindinger. Med nesten 100 års erfaring og kunnskap utvikler vi produkter som skaper flotte utendørsopplevelser og gode prestasjoner. Vår visjon er å inspirere alle til en aktiv livsstil utendørs og sørge for topp prestasjoner til de beste.',

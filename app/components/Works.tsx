@@ -10,7 +10,7 @@ export default function Works( props: { clients: { clientListItems:{ id: string;
                     <li key={client.id} className={"flex flex-wrap w-full sm:w-1/2 mb-8 px-5 min-w-[300px]"}>
                         <Link className={"w-full"} to={'/works/'+ client.id}>
                             <div className={"relative pb-[65%] w-full overflow-hidden"}>
-                                <img className={"absolute w-full top-1/2 -translate-y-1/2"} src={client.imageUrl ? client.imageUrl : 'works.jpg' } alt={client.name}/>
+                                <img className={"absolute w-full top-1/2 -translate-y-1/2"} src={client.imageUrl ? client.imageUrl : 'works.webp' } alt={client.name}/>
                             </div>
                             <div className={client.color + " " + "w-full rounded-b-[24px]" }>
                                 <div className={"p-8 pt-4"}>

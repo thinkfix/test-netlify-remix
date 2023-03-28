@@ -84,22 +84,22 @@ export default function Index() {
     const articles = [
         {
             title: "Magento Solution",
-            image: "icon1.jpg",
+            image: "icon1.webp",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
             link: "",
         },{
             title: "Åpen kildekode",
-            image: "icon2.jpg",
+            image: "icon2.webp",
             text: "Også kalt for open-source. Det betyr at kildekoden er åpent tilgjengelig for alle. Det gjør at det ikke er noen restriksjoner for ulike utviklere å utvide funksjonaliteten som allerede dinnes i Magento.",
             link: "",
         },{
             title: "Intergrasjon",
-            image: "icon3.jpg",
+            image: "icon3.webp",
             text: "Mange lurer på om Magento Solution har intergrasjon opp mot sine allerede eksisterende systemer som Front Studio, Microsoft Dynamics og Fiken. For det meste er svaret ja!",
             link: "",
         },{
             title: "Fraktleverandører",
-            image: "icon1.jpg",
+            image: "icon1.webp",
             text: "Vi har ferdige løsninger for integrering av blant annet Bring, PostNord, DHL, Porterbuddy, Svosj og Helt Hjem.",
             link: "",
         }
@@ -188,7 +188,7 @@ export default function Index() {
                     <div className="absolute inset-0">
                         <img
                             className="h-full w-full object-cover"
-                            src="bg-b-home.jpg"
+                            src="bg-b-home.webp"
                             alt="contact us background"
                         />
                     </div>

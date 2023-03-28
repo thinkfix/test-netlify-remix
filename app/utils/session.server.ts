@@ -5,6 +5,13 @@ import {
 } from "@remix-run/node";
 
 import { db } from "./db.server";
+import * as Sentry from "@sentry/remix";
+
+Sentry.init({
+    dsn: "https://bd32a7ac0ac64c5f80fd25bd727f5c79:b0f0f265ff2445e38b4a08641c5c5d35@o4504576276037632.ingest.sentry.io/4504916542488576",
+    tracesSampleRate: 1,
+    integrations: [new Sentry.Integrations.Prisma({ client: db })],
+});
 
 type LoginForm = {
     username: string;

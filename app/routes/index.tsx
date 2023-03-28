@@ -189,6 +189,8 @@ export default function Index() {
                         <img
                             className="h-full w-full object-cover"
                             src="bg-b-home.webp"
+                            width="1920"
+                            height="588"
                             alt="contact us background"
                         />
                     </div>

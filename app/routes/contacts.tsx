@@ -47,7 +47,7 @@ export default function Contacts() {
                                             t: {founder.phone}
 
                                         </div>
-                                        <img className={"relative"} src={founder.photo} alt={founder.name}/>
+                                        <img className={"relative"} width="496" height="496" src={founder.photo} alt={founder.name}/>
                                         <div className={"p-4 text-center text-2xl absolute top-0 group-hover:top-0 group-hover:absolute md:relative md:top-full transition-all"}>{founder.name}</div>
                                     </div>
                                 </li>

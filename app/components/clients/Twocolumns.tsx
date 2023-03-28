@@ -2,7 +2,7 @@ export const Twocolumns = ({client}) => {
     return (
         <div className={"sm:flex"}>
             <div className={"sm:w-1/3 md:w-1/2 max-h-[500px] overflow-hidden"}>
-                <img className={"w-full"} src={client.pageImageUrl} alt={client.name}/>
+                <img className={"w-full"} width="818" height="460" src={client.pageImageUrl} alt={client.name}/>
             </div>
 
             <div className={"sm:w-2/3 px-10 py-6 mx-auto sm:py-12"}>
